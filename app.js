@@ -5,9 +5,12 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const fs = require('fs');
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 8090;
 const app = express();
 
+// log 폴더 생성
+if(!fs.existsSync('logs'))
+  fs.mkdirSync('logs');
 
 /**
  * 서버 옵션 설정
@@ -15,9 +18,12 @@ const app = express();
 
 // SSR 엔진 설정
 app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
 
-// 서버 폴더 명시
+// 디렉터리 설정
 app.use('/', express.static(__dirname + '/views'));
+app.use('/css', express.static(__dirname + '/css'));
+app.use('/js', express.static(__dirname + '/js'));
 
 // 중첩된 객체표현 허용유무
 app.use(express.urlencoded({extended:true}));
@@ -35,13 +41,17 @@ app.use(morgan('dev'));
 /**
  * 요청 및 응답 처리를 해주는 라우터 정의
  */
- const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index');
 
+// 유저 정보를 이용한 라이더명 조회
+const userInfoRouter = require('./routes/userInfo');
 
 /**
  * 라우터 연결
  */
 app.use('/', indexRouter);
+app.use('/userInfo', userInfoRouter);
+
 
 /**
  * 서버 실행

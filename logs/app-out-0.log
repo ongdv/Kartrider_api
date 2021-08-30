@@ -1,0 +1,88 @@
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.167 ms - -[0m
+2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
+2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 183.183 ms - 2[0m
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 5.047 ms - -[0m
+2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
+2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 163.752 ms - 4[0m
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.588 ms - -[0m
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 1.201 ms - -[0m
+2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
+2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 161.024 ms - -[0m
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.253 ms - -[0m
+2021-08-27 17:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 211.413 ms - 65[0m
+2021-08-27 17:08 +09:00: start Server : 8090
+2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.178 ms - -[0m
+2021-08-27 17:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 165.336 ms - 53[0m
+2021-08-29 14:08 +09:00: [0mGET / [36m304[0m 12.053 ms - -[0m
+2021-08-29 14:08 +09:00: [0mGET /favicon.ico [33m404[0m 1.658 ms - 150[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [32m200[0m 4.504 ms - 597[0m
+2021-08-30 14:08 +09:00: [0mGET /favicon.ico [33m404[0m 0.935 ms - 150[0m
+2021-08-30 14:08 +09:00: undefined
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=qwe [32m200[0m 2.271 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 6.034 ms - -[0m
+2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 222.373 ms - 53[0m
+2021-08-30 14:08 +09:00: undefined
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4RR [32m200[0m 117.602 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 5.475 ms - -[0m
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 165.308 ms - -[0m
+2021-08-30 14:08 +09:00: undefined
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4RR [32m200[0m 139.942 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.992 ms - -[0m
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4 [32m200[0m 198.816 ms - 53[0m
+2021-08-30 14:08 +09:00: undefined
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4rr [32m200[0m 121.552 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: Map(3) { 'name' => 'R팍이', 'level' => 97, 'statusCode' => 200 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4 [32m200[0m 227.171 ms - 2[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.425 ms - -[0m
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: {}
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 156.013 ms - 2[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.607 ms - -[0m
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 1.383 ms - -[0m
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 171.736 ms - 46[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4%E3%84%B2 [32m200[0m 115.857 ms - 18[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 187.148 ms - 95[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.669 ms - -[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 178.410 ms - 119[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=%ED%8C%80%ED%82%ACdog%EC%9E%98%ED%95%A8 [32m200[0m 118.930 ms - 126[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 129.540 ms - -[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 132.028 ms - -[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4R [32m200[0m 127.646 ms - 77[0m
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 120.306 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 14:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 213.479 ms - -[0m
+2021-08-30 14:08 +09:00: start Server : 8090

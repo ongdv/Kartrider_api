@@ -1,0 +1,12 @@
+body{
+  width:1366px;
+  height:768px;
+}
+
+.login{
+  padding:5px;
+}
+
+.inputForm{
+  margin:10px;
+}
