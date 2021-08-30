@@ -46,12 +46,15 @@ const indexRouter = require('./routes/index');
 // 유저 정보를 이용한 라이더명 조회
 const userInfoRouter = require('./routes/userInfo');
 
+// 유저 정보를 이용한 라이더 매치 조회
+const userMatchRouter = require('./routes/userMatch');
+
 /**
  * 라우터 연결
  */
 app.use('/', indexRouter);
 app.use('/userInfo', userInfoRouter);
-
+app.use('/userMatch', userMatchRouter);
 
 /**
  * 서버 실행

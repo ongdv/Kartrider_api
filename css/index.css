@@ -3,10 +3,15 @@ body{
   height:768px;
 }
 
-.login{
-  padding:5px;
+button{
+  width:100px;
+  height:30px;
+  font-size: 15pt;
+  background-color: #d4b9b9;
+  border-radius: 0.5rem;
 }
 
-.inputForm{
-  margin:10px;
+input{
+  width: 100px;
+  height:20px;
 }

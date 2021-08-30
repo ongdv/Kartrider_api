@@ -1,620 +1,420 @@
-2021-08-30 14:08 +09:00: ReferenceError: axios is not defined
-    at Object.getUserInfo (D:\PortFolio\kartrider_api\services\userInfo.js:12:24)
-    at D:\PortFolio\kartrider_api\routes\userInfo.js:39:43
-    at Layer.handle [as handle_request] (D:\PortFolio\kartrider_api\node_modules\express\lib\router\layer.js:95:5)
-    at next (D:\PortFolio\kartrider_api\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (D:\PortFolio\kartrider_api\node_modules\express\lib\router\route.js:112:3)
-    at Layer.handle [as handle_request] (D:\PortFolio\kartrider_api\node_modules\express\lib\router\layer.js:95:5)
-    at D:\PortFolio\kartrider_api\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (D:\PortFolio\kartrider_api\node_modules\express\lib\router\index.js:335:12)
-    at next (D:\PortFolio\kartrider_api\node_modules\express\lib\router\index.js:275:10)
-    at Function.handle (D:\PortFolio\kartrider_api\node_modules\express\lib\router\index.js:174:3)
-2021-08-30 14:08 +09:00: Error: Request failed with status code 404
-    at createError (D:\PortFolio\kartrider_api\node_modules\axios\lib\core\createError.js:16:15)
-    at settle (D:\PortFolio\kartrider_api\node_modules\axios\lib\core\settle.js:17:12)
-    at IncomingMessage.handleStreamEnd (D:\PortFolio\kartrider_api\node_modules\axios\lib\adapters\http.js:260:11)
-    at IncomingMessage.emit (node:events:341:22)
-    at endReadableNT (node:internal/streams/readable:1294:12)
-    at processTicksAndRejections (node:internal/process/task_queues:80:21) {
-  config: {
-    url: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-    method: 'get',
-    headers: {
-      Accept: 'application/json, text/plain, */*',
-      Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE',
-      'User-Agent': 'axios/0.21.1'
-    },
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 0,
-    adapter: [Function: httpAdapter],
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    validateStatus: [Function: validateStatus],
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      socket: [Function (anonymous)],
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      prefinish: [Function: requestOnPrefinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: false,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: false,
-    socket: TLSSocket {
-      _tlsOptions: [Object],
-      _secureEstablished: true,
-      _securePending: false,
-      _newSessionPending: false,
-      _controlReleased: true,
-      secureConnecting: false,
-      _SNICallback: null,
-      servername: 'api.nexon.co.kr',
-      alpnProtocol: false,
-      authorized: true,
-      authorizationError: null,
-      encrypted: true,
-      _events: [Object: null prototype],
-      _eventsCount: 10,
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'api.nexon.co.kr',
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: undefined,
-      _server: null,
-      ssl: [TLSWrap],
-      _requestCert: true,
-      _rejectUnauthorized: true,
-      parser: null,
-      _httpMessage: [Circular *1],
-      [Symbol(res)]: [TLSWrap],
-      [Symbol(verified)]: true,
-      [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: 157,
-      [Symbol(kHandle)]: [TLSWrap],
-      [Symbol(kSetNoDelay)]: false,
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: null,
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(connect-options)]: [Object],
-      [Symbol(RequestTimeout)]: undefined
-    },
-    _header: 'GET /kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE\r\n' +
-      'User-Agent: axios/0.21.1\r\n' +
-      'Host: api.nexon.co.kr\r\n' +
-      'Connection: close\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: noopPendingOutput],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 443,
-      protocol: 'https:',
-      options: [Object],
-      requests: {},
-      sockets: [Object],
-      freeSockets: {},
-      keepAliveMsecs: 1000,
-      keepAlive: false,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'fifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      maxCachedSessions: 100,
-      _sessionCache: [Object],
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    path: '/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-    _ended: true,
-    res: IncomingMessage {
-      _readableState: [ReadableState],
-      _events: [Object: null prototype],
-      _eventsCount: 3,
-      _maxListeners: undefined,
-      socket: [TLSSocket],
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      responseUrl: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      redirects: [],
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 30,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0,
-      [Symbol(RequestTimeout)]: undefined
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: false,
-    host: 'api.nexon.co.kr',
-    protocol: 'https:',
-    _redirectable: Writable {
-      _writableState: [WritableState],
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 0,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(kCapture)]: false,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      authorization: [Array],
-      'user-agent': [Array],
-      host: [Array]
-    }
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: {
-      'content-type': 'application/json; charset=utf-8',
-      'content-length': '35',
-      connection: 'close',
-      date: 'Mon, 30 Aug 2021 05:34:59 GMT',
-      'x-amzn-requestid': '5d6434d1-f781-4612-9535-c54d64126a70',
-      'api-supported-versions': '1.0',
-      'x-uuid': '27730cfc-69d1-418d-a32e-b0dbe0e6c292',
-      'x-amz-apigw-id': 'E3YgmFgttjMFX_Q=',
-      'x-amzn-remapped-server': 'Kestrel',
-      'x-powered-by': 'ASP.NET',
-      'x-amzn-remapped-date': 'Mon, 30 Aug 2021 05:34:59 GMT',
-      'x-cache': 'Error from cloudfront',
-      via: '1.1 17b1095550a8ffe13061114dbfceeb81.cloudfront.net (CloudFront)',
-      'x-amz-cf-pop': 'ICN55-C1',
-      'x-amz-cf-id': 'QqPlz1C9CB2OpaOqwUUZI9yUS-DGBv_Rb13cTtSMlE87bszjNT0KqQ=='
-    },
-    config: {
-      url: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      method: 'get',
-      headers: [Object],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 0,
-      adapter: [Function: httpAdapter],
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      validateStatus: [Function: validateStatus],
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE\r\n' +
-        'User-Agent: axios/0.21.1\r\n' +
-        'Host: api.nexon.co.kr\r\n' +
-        'Connection: close\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: noopPendingOutput],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      path: '/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'api.nexon.co.kr',
-      protocol: 'https:',
-      _redirectable: [Writable],
-      [Symbol(kCapture)]: false,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype]
-    },
-    data: { status: 404, message: 'NotFound' }
-  },
-  isAxiosError: true,
-  toJSON: [Function: toJSON]
-}
-2021-08-30 14:08 +09:00: Error: Request failed with status code 404
-    at createError (D:\PortFolio\kartrider_api\node_modules\axios\lib\core\createError.js:16:15)
-    at settle (D:\PortFolio\kartrider_api\node_modules\axios\lib\core\settle.js:17:12)
-    at IncomingMessage.handleStreamEnd (D:\PortFolio\kartrider_api\node_modules\axios\lib\adapters\http.js:260:11)
-    at IncomingMessage.emit (node:events:341:22)
-    at endReadableNT (node:internal/streams/readable:1294:12)
-    at processTicksAndRejections (node:internal/process/task_queues:80:21) {
-  config: {
-    url: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-    method: 'get',
-    headers: {
-      Accept: 'application/json, text/plain, */*',
-      Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE',
-      'User-Agent': 'axios/0.21.1'
-    },
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 0,
-    adapter: [Function: httpAdapter],
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: -1,
-    validateStatus: [Function: validateStatus],
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      socket: [Function (anonymous)],
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      prefinish: [Function: requestOnPrefinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: false,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: false,
-    socket: TLSSocket {
-      _tlsOptions: [Object],
-      _secureEstablished: true,
-      _securePending: false,
-      _newSessionPending: false,
-      _controlReleased: true,
-      secureConnecting: false,
-      _SNICallback: null,
-      servername: 'api.nexon.co.kr',
-      alpnProtocol: false,
-      authorized: true,
-      authorizationError: null,
-      encrypted: true,
-      _events: [Object: null prototype],
-      _eventsCount: 10,
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'api.nexon.co.kr',
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: undefined,
-      _server: null,
-      ssl: [TLSWrap],
-      _requestCert: true,
-      _rejectUnauthorized: true,
-      parser: null,
-      _httpMessage: [Circular *1],
-      [Symbol(res)]: [TLSWrap],
-      [Symbol(verified)]: true,
-      [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: 141,
-      [Symbol(kHandle)]: [TLSWrap],
-      [Symbol(kSetNoDelay)]: false,
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: null,
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(connect-options)]: [Object],
-      [Symbol(RequestTimeout)]: undefined
-    },
-    _header: 'GET /kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR HTTP/1.1\r\n' +
-      'Accept: application/json, text/plain, */*\r\n' +
-      'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE\r\n' +
-      'User-Agent: axios/0.21.1\r\n' +
-      'Host: api.nexon.co.kr\r\n' +
-      'Connection: close\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: noopPendingOutput],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 443,
-      protocol: 'https:',
-      options: [Object],
-      requests: {},
-      sockets: [Object],
-      freeSockets: {},
-      keepAliveMsecs: 1000,
-      keepAlive: false,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'fifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      maxCachedSessions: 100,
-      _sessionCache: [Object],
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    path: '/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-    _ended: true,
-    res: IncomingMessage {
-      _readableState: [ReadableState],
-      _events: [Object: null prototype],
-      _eventsCount: 3,
-      _maxListeners: undefined,
-      socket: [TLSSocket],
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 404,
-      statusMessage: 'Not Found',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      responseUrl: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      redirects: [],
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 30,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0,
-      [Symbol(RequestTimeout)]: undefined
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: false,
-    host: 'api.nexon.co.kr',
-    protocol: 'https:',
-    _redirectable: Writable {
-      _writableState: [WritableState],
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 0,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(kCapture)]: false,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      authorization: [Array],
-      'user-agent': [Array],
-      host: [Array]
-    }
-  },
-  response: {
-    status: 404,
-    statusText: 'Not Found',
-    headers: {
-      'content-type': 'application/json; charset=utf-8',
-      'content-length': '35',
-      connection: 'close',
-      date: 'Mon, 30 Aug 2021 05:35:47 GMT',
-      'x-amzn-requestid': 'd7b65a2d-d331-467e-b230-38e38716174b',
-      'api-supported-versions': '1.0',
-      'x-uuid': 'e4a07cea-632c-45ed-b430-73435b5e9954',
-      'x-amz-apigw-id': 'E3YoFFibtjMFk5g=',
-      'x-amzn-remapped-server': 'Kestrel',
-      'x-powered-by': 'ASP.NET',
-      'x-amzn-remapped-date': 'Mon, 30 Aug 2021 05:35:46 GMT',
-      'x-cache': 'Error from cloudfront',
-      via: '1.1 4e695cd400fb06c5138257ea0a526226.cloudfront.net (CloudFront)',
-      'x-amz-cf-pop': 'ICN54-C3',
-      'x-amz-cf-id': 'VVpNp7AiwHdrUHP2GMPaJG6jnHtEdhxkQ4boZZ1ObLynixKQyCU8RQ=='
-    },
-    config: {
-      url: 'https://api.nexon.co.kr/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      method: 'get',
-      headers: [Object],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 0,
-      adapter: [Function: httpAdapter],
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: -1,
-      validateStatus: [Function: validateStatus],
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR HTTP/1.1\r\n' +
-        'Accept: application/json, text/plain, */*\r\n' +
-        'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE\r\n' +
-        'User-Agent: axios/0.21.1\r\n' +
-        'Host: api.nexon.co.kr\r\n' +
-        'Connection: close\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: noopPendingOutput],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      path: '/kart/v1.0/users/nickname/R%ED%8C%8D%EC%9D%B4RR',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'api.nexon.co.kr',
-      protocol: 'https:',
-      _redirectable: [Writable],
-      [Symbol(kCapture)]: false,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype]
-    },
-    data: { status: 404, message: 'NotFound' }
-  },
-  isAxiosError: true,
-  toJSON: [Function: toJSON]
-}
-2021-08-30 14:08 +09:00: 데이터가 존재하지 않습니다.
+Error: Cannot find module './routes/pageConn'
+Require stack:
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:24)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+Error: Cannot find module './routes/pageConn'
+Require stack:
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:24)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+Error: Cannot find module './routes/pageConn'
+Require stack:
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:24)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainer.js:303:25
+    at wrapper (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\async\internal\once.js:12:16)
+Error: Cannot find module '../services/show'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\index.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\index.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '../services/show'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\index.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\index.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '../services/show'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\index.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\index.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+D:\PortFolio\Kartrider_api\routes\userMatch.js:52
+  const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
+                    ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\app.js:50:25)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+    at Function.fromEntries (<anonymous>)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:54:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2021-08-30 16:08 +09:00: ReferenceError: access_id is not defined
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:78:58
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:55:5
+2021-08-30 16:08 +09:00: TypeError: Assignment to constant variable.
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:70:12
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:55:5
+2021-08-30 16:08 +09:00: ReferenceError: options is not defined
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:88:40
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:57:5
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: key is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: key is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+ReferenceError: kartSdk is not defined
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\configs\kartRiderSDK.js:4:31)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)

@@ -1,0 +1,57 @@
+div{
+  margin: 15px;
+}
+
+p{
+  width:200px;
+  margin: 3px;
+  font-size: 15pt;
+}
+
+.userMatch_nickname{
+  width:200px;
+  height:25px;
+  font-size:15pt;
+  text-align: left;
+  border-radius: 0.4rem;
+}
+
+.userMatch_start_date{
+  width:202px;
+  height:25px;
+  font-size:15pt;
+  text-align: left;
+  border-radius: 0.4rem;
+}
+
+.userMatch_end_date{
+  width:202px;
+  height:25px;
+  font-size:15pt;
+  text-align: left;
+  border-radius: 0.4rem;
+}
+
+.userMatch_limit{
+  width:200px;
+  height:25px;
+  font-size: 15pt;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+
+.userMatch_lookup{
+  width:100px;
+  height:40px;
+  font-size: 15pt;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.5rem;
+  border-color: #000000;
+}
+
+.userMatch_lookup:active{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+}

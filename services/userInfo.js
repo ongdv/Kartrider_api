@@ -9,7 +9,6 @@ module.exports = {
   */
   getUserInfo : async (url, options) => {
     const map = new Map();
-
     // 라이더 명
     const keyName = "name";
 

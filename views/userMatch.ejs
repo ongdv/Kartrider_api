@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RiderMatch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/css/userMatch.css">
+  </head>
+  <body>
+    <h2>라이더 명을 이용한 매치 정보 조회</h2>
+    <form method="GET" action="/userMatch/nickname">
+      <div>
+        <p>닉네임 입력</p>
+        <input type="text" class="userMatch_nickname" name="nickname">
+      </div>
+      <div>
+        <p>시작 날짜</p>
+        <input type="date" class="userMatch_start_date" name="start_date">
+      </div>
+      <div>
+        <p>종료 날짜</p>
+        <input type="date" class="userMatch_end_date" name="end_date">
+      </div>
+      <div>
+        <p>조회 수</p>
+        <input type="text" class="userMatch_limit" name="limit">
+      </div>
+      <div>
+        <input type="submit" class="userMatch_lookup" value="조회">
+      </div>
+    </form>
+  </body>
+</html>

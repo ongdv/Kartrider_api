@@ -1,88 +1,1067 @@
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.167 ms - -[0m
-2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
-2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 183.183 ms - 2[0m
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 5.047 ms - -[0m
-2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
-2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 163.752 ms - 4[0m
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.588 ms - -[0m
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 1.201 ms - -[0m
-2021-08-27 17:08 +09:00: Map(2) { 'name' => 'R팍이', 'level' => 97 }
-2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 161.024 ms - -[0m
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.253 ms - -[0m
-2021-08-27 17:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 211.413 ms - 65[0m
-2021-08-27 17:08 +09:00: start Server : 8090
-2021-08-27 17:08 +09:00: [0mGET / [36m304[0m 4.178 ms - -[0m
-2021-08-27 17:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-27 17:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 165.336 ms - 53[0m
-2021-08-29 14:08 +09:00: [0mGET / [36m304[0m 12.053 ms - -[0m
-2021-08-29 14:08 +09:00: [0mGET /favicon.ico [33m404[0m 1.658 ms - 150[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [32m200[0m 4.504 ms - 597[0m
-2021-08-30 14:08 +09:00: [0mGET /favicon.ico [33m404[0m 0.935 ms - 150[0m
-2021-08-30 14:08 +09:00: undefined
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=qwe [32m200[0m 2.271 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 6.034 ms - -[0m
-2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 222.373 ms - 53[0m
-2021-08-30 14:08 +09:00: undefined
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4RR [32m200[0m 117.602 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 5.475 ms - -[0m
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 165.308 ms - -[0m
-2021-08-30 14:08 +09:00: undefined
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4RR [32m200[0m 139.942 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.992 ms - -[0m
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4 [32m200[0m 198.816 ms - 53[0m
-2021-08-30 14:08 +09:00: undefined
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4rr [32m200[0m 121.552 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: Map(3) { 'name' => 'R팍이', 'level' => 97, 'statusCode' => 200 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=r%ED%8C%8D%EC%9D%B4 [32m200[0m 227.171 ms - 2[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.425 ms - -[0m
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: {}
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 156.013 ms - 2[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.607 ms - -[0m
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 1.383 ms - -[0m
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 171.736 ms - 46[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4%E3%84%B2 [32m200[0m 115.857 ms - 18[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: 받아온 데이터 정보 :  { accessId: '1711549689', name: 'R팍이', level: 97 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 187.148 ms - 95[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: [0mGET / [36m304[0m 4.669 ms - -[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 178.410 ms - 119[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=%ED%8C%80%ED%82%ACdog%EC%9E%98%ED%95%A8 [32m200[0m 118.930 ms - 126[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 129.540 ms - -[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 132.028 ms - -[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4R [32m200[0m 127.646 ms - 77[0m
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 120.306 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
-2021-08-30 14:08 +09:00: {
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [32m200[0m 4.146 ms - 674[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo [32m200[0m 1.073 ms - 597[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo [36m304[0m 0.956 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch [32m200[0m 1.082 ms - 594[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [32m200[0m 4.138 ms - 801[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo [36m304[0m 0.993 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [32m200[0m 1.275 ms - 597[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [32m200[0m 4.293 ms - 743[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [36m304[0m 4.457 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch? [32m200[0m 1.204 ms - 594[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 1.074 ms - -[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [32m200[0m 5.479 ms - 730[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 1.316 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch? [36m304[0m 1.009 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 0.849 ms - -[0m
+2021-08-30 15:08 +09:00: {
   name: 'R팍이',
   level: 97,
   accessId: '1711549689',
   statusCode: 200,
   message: '라이더 정보가 존재합니다.'
 }
-2021-08-30 14:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 213.479 ms - -[0m
-2021-08-30 14:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 196.652 ms - -[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [32m200[0m 4.191 ms - 688[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 0.986 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch? [36m304[0m 0.875 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch? [36m304[0m 1.089 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 0.935 ms - -[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: [0mGET / [36m304[0m 4.421 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userInfo? [36m304[0m 0.967 ms - -[0m
+2021-08-30 15:08 +09:00: [0mGET /userMatch? [36m304[0m 1.083 ms - -[0m
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 15:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET / [36m304[0m 4.172 ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 1.186 ms - 677[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 5.963 ms - 693[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.526 ms - 730[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.793 ms - 987[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.511 ms - 946[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.463 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 5.914 ms - 930[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.969 ms - 918[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.949 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.411 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.248 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.522 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 6.695 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 5.206 ms - 1049[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.993 ms - 1169[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 4.620 ms - 1293[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 6.399 ms - 1302[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 6.086 ms - 1322[0m
+2021-08-30 16:08 +09:00: 라이더 명 : undefined
+2021-08-30 16:08 +09:00: 시작 날짜 : undefined
+2021-08-30 16:08 +09:00: 종료 날짜 : undefined
+2021-08-30 16:08 +09:00: 조회 수 : undefined
+2021-08-30 16:08 +09:00: 유형 : undefined
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-18&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.430 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-02
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-02&end_date=2021-08-18&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-02
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedTeamCombine
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-02
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedTeamCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-02&end_date=2021-08-18&limit=15&match_types=speedTeamCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET / [36m304[0m 4.024 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET / [32m200[0m 4.541 ms - 694[0m
+2021-08-30 16:08 +09:00: [0mGET /userInfo? [32m200[0m 1.175 ms - 602[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [32m200[0m 1.044 ms - 1328[0m
+2021-08-30 16:08 +09:00: [0mGET /userInfo? [36m304[0m 0.806 ms - -[0m
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=%EC%B2%AD%EB%AA%85 [32m200[0m 181.704 ms - 77[0m
+2021-08-30 16:08 +09:00: {
+  name: '달따올',
+  level: 80,
+  accessId: '2030700511',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=%EB%8B%AC%EB%94%B0%EC%98%AC [32m200[0m 118.652 ms - 121[0m
+2021-08-30 16:08 +09:00: {
+  name: 'MysTic해든z',
+  level: 108,
+  accessId: '185206184',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=Mystic%ED%95%B4%EB%93%A0z [32m200[0m 133.637 ms - 125[0m
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=Mystic%EC%A4%91%EB%8C%80 [32m200[0m 198.052 ms - 77[0m
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=Mystic%EC%9D%B4%EC%A4%91%EB%8C%80 [32m200[0m 160.523 ms - 77[0m
+2021-08-30 16:08 +09:00: {
+  name: 'MysTic중선',
+  level: 108,
+  accessId: '124964',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=Mystic%EC%A4%91%EC%84%A0 [32m200[0m 109.978 ms - 121[0m
+2021-08-30 16:08 +09:00: {
+  name: 'Scamper중선s',
+  level: 108,
+  accessId: '1476841887',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=Scamper%EC%A4%91%EC%84%A0s [32m200[0m 128.539 ms - 127[0m
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: [0mGET /userInfo/nickname?nickname=%EC%97%90%ED%8D%BC%EA%B8%8D%EC%A0%95%EC%9D%B8 [32m200[0m 124.233 ms - 77[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 0.920 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : Scamper중선s
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-05
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 7.121 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.448 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-03
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-19
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-19&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이R
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-03
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-19
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이R
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-03
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-19
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4R&start_date=2021-08-03&end_date=2021-08-19&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.853 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-12
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-12
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-12&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-12
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-12
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-26
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-12&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 5.811 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-05
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-20
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-05&end_date=2021-08-20&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이R
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-05
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-20
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4R&start_date=2021-08-05&end_date=2021-08-20&limit=15&match_types=speedIndiCombine [32m200[0m 118.591 ms - 46[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.385 ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 1.244 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-12
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-12&limit=15&match_types=speedIndiCombine [32m200[0m 154.229 ms - 46[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.813 ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 1.007 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-25
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-18&end_date=2021-08-25&limit=15&match_types=speedIndiCombine [0m-[0m - ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이R
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-25
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4R&start_date=2021-08-18&end_date=2021-08-25&limit=15&match_types=speedIndiCombine [32m200[0m 125.965 ms - 77[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-25
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-18&end_date=2021-08-25&limit=15&match_types=speedIndiCombine [32m200[0m 209.920 ms - 108[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이RR
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-25
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4RR&start_date=2021-08-18&end_date=2021-08-25&limit=15&match_types=speedIndiCombine [32m200[0m 121.615 ms - 77[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-25
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-18&end_date=2021-08-25&limit=15&match_types=speedIndiCombine [36m304[0m 190.575 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.697 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-18
+2021-08-30 16:08 +09:00: 조회 수 : 111
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-18&limit=111&match_types=speedIndiCombine [32m200[0m 179.836 ms - 108[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.324 ms - -[0m
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-03
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-19
+2021-08-30 16:08 +09:00: 조회 오프셋 : undefined
+2021-08-30 16:08 +09:00: 조회 수 : 12
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-19&limit=12&match_types=speedIndiCombine [32m200[0m 178.855 ms - 108[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.401 ms - -[0m
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-13&limit=15&match_types=speedIndiCombine [31m500[0m 151.528 ms - 1204[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: 라이더 명 : R팍이
+2021-08-30 16:08 +09:00: 시작 날짜 : 2021-08-04
+2021-08-30 16:08 +09:00: 종료 날짜 : 2021-08-13
+2021-08-30 16:08 +09:00: 조회 오프셋 : 0
+2021-08-30 16:08 +09:00: 조회 수 : 15
+2021-08-30 16:08 +09:00: 유형 : speedIndiCombine
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-13 &offset=0&limit=15&match_types=speedIndiCombine
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-13&limit=15&match_types=speedIndiCombine [32m200[0m 214.674 ms - 108[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.385 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-12&limit=15&match_types=speedIndiCombine [31m500[0m 178.416 ms - 1199[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 6.478 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-19&limit=15&match_types=speedIndiCombine [32m200[0m 172.446 ms - 108[0m
+2021-08-30 16:08 +09:00: {
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '30',
+    connection: 'close',
+    date: 'Mon, 30 Aug 2021 07:39:05 GMT',
+    'x-amzn-requestid': '2fbd0111-90c1-48c8-9f2c-76ec6e4b225d',
+    'api-supported-versions': '1.0',
+    'x-uuid': '257dd906-2682-4cf3-8bca-a51024554a2d',
+    'x-amz-apigw-id': 'E3qsAGKUNjMFt_Q=',
+    'x-amzn-remapped-server': 'Kestrel',
+    'x-powered-by': 'ASP.NET',
+    'x-amzn-remapped-date': 'Mon, 30 Aug 2021 07:39:05 GMT',
+    'x-cache': 'Miss from cloudfront',
+    via: '1.1 882b2e8a878a93a18b83fb1e3c33c61a.cloudfront.net (CloudFront)',
+    'x-amz-cf-pop': 'ICN55-C1',
+    'x-amz-cf-id': '8FyEH3EltZfn59eNOUMq-eIz9IzRLzbysA4EAbYnXIWZnnY4mhHlUA=='
+  },
+  config: {
+    url: 'https://api.nexon.co.kr/kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-19%20&offset=0&limit=15&match_types=speedIndiCombine',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE',
+      'User-Agent': 'axios/0.21.1'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function (anonymous)],
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api.nexon.co.kr',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api.nexon.co.kr',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 108,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-19%20&offset=0&limit=15&match_types=speedIndiCombine HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE\r\n' +
+      'User-Agent: axios/0.21.1\r\n' +
+      'Host: api.nexon.co.kr\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'fifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-19%20&offset=0&limit=15&match_types=speedIndiCombine',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api.nexon.co.kr/kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-19%20&offset=0&limit=15&match_types=speedIndiCombine',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 30,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api.nexon.co.kr',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api.nexon.co.kr/kart/v1.0/users/undefined/matches?start_date=2021-08-04&end_date=2021-08-19%20&offset=0&limit=15&match_types=speedIndiCombine',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      authorization: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  data: { nickName: null, matches: [] }
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.563 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-05&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [32m200[0m 181.750 ms - 108[0m
+2021-08-30 16:08 +09:00: { nickName: null, matches: [] }
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.422 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-05&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 150.359 ms - -[0m
+2021-08-30 16:08 +09:00: { nickName: null, matches: [] }
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 6.255 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-05&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 178.921 ms - -[0m
+2021-08-30 16:08 +09:00: { nickName: null, matches: [] }
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 6.237 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  name: 'R팍이',
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 16:08 +09:00: userMatch
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/undefined/matches?start_date=2021-08-06&end_date=2021-08-20 &offset=0&limit=125&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-06&end_date=2021-08-20&limit=125&match_types=speedIndiCombine [32m200[0m 158.027 ms - 108[0m
+2021-08-30 16:08 +09:00: { nickName: null, matches: [] }
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-06&end_date=2021-08-20 &offset=0&limit=125&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-06&end_date=2021-08-20&limit=125&match_types=speedIndiCombine [36m304[0m 175.295 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  nickName: 'R팍이',
+  matches: [
+    {
+      matchType: 'effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e',
+      matches: [Array]
+    },
+    {
+      matchType: '7b9f0fd5377c38514dbb78ebe63ac6c3b81009d5a31dd569d1cff8f005aa881a',
+      matches: [Array]
+    }
+  ]
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.616 ms - -[0m
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [32m200[0m 158.926 ms - 108[0m
+2021-08-30 16:08 +09:00: {
+  matchType: 'effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e',
+  matches: [
+    {
+      accountNo: '1711549689',
+      matchId: '017f0021c159dfcf',
+      matchType: 'effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e',
+      teamId: '1',
+      character: '2ecb10f5e23493727a80a91421d6242a18b131f743676e72317bde4bd5d27131',
+      matchResult: '',
+      seasonType: '',
+      startTime: '2021-08-14T10:17:44',
+      endTime: '2021-08-14T10:19:42',
+      channelName: 'grandprix_speedTeamInfinit',
+      trackId: '73721dfa4a80171105a1e450fd43f18f772f1a62db60edd7e902de02ce2a6965',
+      playerCount: 8,
+      player: [Object]
+    },
+    {
+      accountNo: '1711549689',
+      matchId: '01250021c157898b',
+      matchType: 'effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e',
+      teamId: '2',
+      character: '2ecb10f5e23493727a80a91421d6242a18b131f743676e72317bde4bd5d27131',
+      matchResult: '1',
+      seasonType: '',
+      startTime: '2021-08-14T10:15:11',
+      endTime: '2021-08-14T10:16:54',
+      channelName: 'grandprix_speedTeamInfinit',
+      trackId: '778369ce7070e66a2eebd00357f598239cd5604b307bd2ac4d253ba1804a0840',
+      playerCount: 8,
+      player: [Object]
+    }
+  ]
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 254.585 ms - -[0m
+2021-08-30 16:08 +09:00: effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 234.757 ms - -[0m
+2021-08-30 16:08 +09:00: y�����^8ko|�κݦ���9ww}��[sMx���u�|�n��ʹ���^�
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 160.218 ms - -[0m
+2021-08-30 16:08 +09:00: ZWZmZDY2NzU4MTQ0YTI5ODY4NjYzYWE1MGU4NWQzZDk1YzViYzAxNDdkN2ZkYjk4MDI2OTFjMjA4N2YzNDE2ZQ==
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 156.455 ms - -[0m
+2021-08-30 16:08 +09:00: effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 214.213 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 124.888 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 4.513 ms - -[0m
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-04&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [32m200[0m 164.450 ms - 108[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-04&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-04&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 155.007 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 113.695 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: [0mGET /userMatch? [36m304[0m 3.255 ms - -[0m
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 213.698 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: euc-kr
+    at new NodeError (node:internal/errors:277:15)
+    at Buffer.toString (node:buffer:787:11)
+    at Object.getUserMatches (D:\PortFolio\Kartrider_api\services\userMatch.js:16:55)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5) {
+  code: 'ERR_UNKNOWN_ENCODING'
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 161.472 ms - -[0m
+2021-08-30 16:08 +09:00: {
+  nickName: 'R팍이',
+  matches: [
+    {
+      matchType: 'effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e',
+      matches: [Array]
+    },
+    {
+      matchType: '7b9f0fd5377c38514dbb78ebe63ac6c3b81009d5a31dd569d1cff8f005aa881a',
+      matches: [Array]
+    }
+  ]
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 160.926 ms - -[0m
+2021-08-30 16:08 +09:00: effd66758144a29868663aa50e85d3d95c5bc0147d7fdb9802691c2087f3416e
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 163.339 ms - -[0m
+2021-08-30 16:08 +09:00: y�����^8ko|�κݦ���9ww}��[sMx���u�|�n��ʹ���^�
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 222.339 ms - -[0m
+2021-08-30 16:08 +09:00: 대전 정보가 존재하지 않습니다.
+2021-08-30 16:08 +09:00: TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: euc-kr
+    at new NodeError (node:internal/errors:277:15)
+    at Buffer.toString (node:buffer:787:11)
+    at Object.getUserMatches (D:\PortFolio\Kartrider_api\services\userMatch.js:16:55)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5) {
+  code: 'ERR_UNKNOWN_ENCODING'
+}
+2021-08-30 16:08 +09:00: start Server : 8090
+2021-08-30 16:08 +09:00: https://api.nexon.co.kr/kart/v1.0/users/1711549689/matches?start_date=2021-08-03&end_date=2021-08-26 &offset=0&limit=15&match_types=
+2021-08-30 16:08 +09:00: [0mGET /userMatch/nickname?nickname=R%ED%8C%8D%EC%9D%B4&start_date=2021-08-03&end_date=2021-08-26&limit=15&match_types=speedIndiCombine [36m304[0m 210.582 ms - -[0m
+2021-08-30 16:08 +09:00: y�����^8ko|�κݦ���9ww}��[sMx���u�|�n��ʹ���^�
+2021-08-30 17:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET / [36m304[0m 4.456 ms - -[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET / [36m304[0m 5.215 ms - -[0m
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 1.120 ms - -[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 7.828 ms - 77[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 1.626 ms - -[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 5.376 ms - -[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [36m304[0m 6.488 ms - -[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=%EB%8B%AC%EB%94%B0%EC%98%AC [32m200[0m 1.800 ms - 77[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 4.479 ms - -[0m
+2021-08-30 19:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 181.039 ms - 119[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET / [36m304[0m 4.566 ms - -[0m
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 1.612 ms - -[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 157.216 ms - 77[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 4.338 ms - -[0m
+2021-08-30 19:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 179.777 ms - 119[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 19:08 +09:00: [0mGET /userInfo? [36m304[0m 5.333 ms - -[0m
+2021-08-30 19:08 +09:00: { statusCode: 404, message: '라이더 정보가 존재하지 않습니다.' }
+2021-08-30 19:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 6.297 ms - 77[0m
+2021-08-30 19:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET / [36m304[0m 7.216 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /favicon.ico [33m404[0m 1.852 ms - 150[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 1.339 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [36m304[0m 0.748 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [36m304[0m 0.800 ms - -[0m
+2021-08-30 20:08 +09:00: {
+  name: 'R팍이',
+  level: 97,
+  accessId: '1711549689',
+  statusCode: 200,
+  message: '라이더 정보가 존재합니다.'
+}
+2021-08-30 20:08 +09:00: [0mGET /userInfo/nickname?nickname=R%ED%8C%8D%EC%9D%B4 [32m200[0m 180.445 ms - 119[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET / [36m304[0m 4.674 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 1.962 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 6.429 ms - 922[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.158 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 4.261 ms - 947[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.337 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.308 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 6.263 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.311 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.246 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 4.873 ms - 970[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.240 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.250 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.221 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.846 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.579 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.182 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 5.117 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.151 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 5.462 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 7.172 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [32m200[0m 180.594 ms - 77[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.170 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.701 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.878 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.174 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.236 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 7.420 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.562 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 5.144 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.667 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.279 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.615 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 1.179 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 4.847 ms - 997[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 6.778 ms - 967[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [32m200[0m 4.452 ms - 1023[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.272 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.257 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.272 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.729 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 5.492 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 6.422 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.432 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.492 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 184.673 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.497 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 213.036 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.261 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 160.239 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.446 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 200.924 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 192.161 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.286 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 158.641 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userMatch/nickname?nickname=&start_date=&end_date=&limit= [36m304[0m 110.992 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.221 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userMatch? [36m304[0m 4.204 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET / [36m304[0m 4.422 ms - -[0m
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [32m200[0m 2.155 ms - 655[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [36m304[0m 6.170 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [36m304[0m 7.350 ms - -[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [32m200[0m 4.251 ms - 717[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [32m200[0m 4.654 ms - 715[0m
+2021-08-30 20:08 +09:00: start Server : 8090
+2021-08-30 20:08 +09:00: [0mGET /userInfo? [36m304[0m 4.862 ms - -[0m
