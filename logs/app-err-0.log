@@ -418,3 +418,503 @@ ReferenceError: kartSdk is not defined
     at require (node:internal/modules/cjs/helpers:92:18)
     at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userInfo.js:6:17)
     at Module._compile (node:internal/modules/cjs/loader:1102:14)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+Error: Cannot find module '/configs/common'
+Require stack:
+- D:\PortFolio\Kartrider_api\routes\userMatch.js
+- D:\PortFolio\Kartrider_api\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:15)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:61:29)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (D:\PortFolio\Kartrider_api\routes\userMatch.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1102:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at Module.Hook._require.Module.require (C:\Users\pen40\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+2021-09-01 22:09 +09:00: ReferenceError: fs is not defined
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:21:26)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+2021-09-01 22:09 +09:00: ReferenceError: fs is not defined
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:21:26)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '/metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:24:29)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.common.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:17:27)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.common.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:17:27)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '../metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.common.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:17:27)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 22:09 +09:00: Error: ENOENT: no such file or directory, open '/metadata/gameType.json'
+    at Object.openSync (node:fs:487:3)
+    at Object.readFileSync (node:fs:388:35)
+    at Object.common.getGameTypeData (D:\PortFolio\Kartrider_api\configs\common.js:17:27)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:10
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+2021-09-01 23:09 +09:00: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:89:17
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\index.js:275:10)
+    at next (D:\PortFolio\Kartrider_api\node_modules\express\lib\router\route.js:127:14)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: common.getFlyingPetData is not a function
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:99:51
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: common is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:26)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:94:43
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: common is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:26)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:94:43
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matchType' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:58)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matchType' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:58)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matchType' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:58)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matches' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:34)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matches' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:34)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: Cannot read property 'matches' of undefined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:34:34)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteDataAll is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteDataAll is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteDataAll is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:50:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteDataAll is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteDataAll is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:23)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.deleteDataAll is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:41:23)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: this.test is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:51:12)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: test is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:51:17)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: test is not defined
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:51:17)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: x is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:52:7)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+TypeError: x is not a function
+    at Object.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:52:19)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: deleteData is not defined
+    at Object.comm.parseMetadata (D:\PortFolio\Kartrider_api\services\userMatch.js:27:5)
+    at D:\PortFolio\Kartrider_api\routes\userMatch.js:86:37
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)

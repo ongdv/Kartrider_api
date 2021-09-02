@@ -5,7 +5,7 @@ module.exports = {
   * 라이더 정보는 이름과 레벨, 접근ID를 받아온다.
   * @param {string} url - 요청 URL
   * @param {object} options - API 사용 인증 설정 
-  * @returns {Map<string, string>}
+  * @returns {Map<string, object>}
   */
   getUserInfo : async (url, options) => {
     const map = new Map();

@@ -3,12 +3,20 @@ body{
   height:768px;
 }
 
-button{
+.indexButton{
   width:100px;
-  height:30px;
+  height:40px;
   font-size: 15pt;
-  background-color: #d4b9b9;
+  color: #ffffff;
+  background-color: #000000;
   border-radius: 0.5rem;
+  border-color: #000000;
+}
+
+.indexButton:active{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
 }
 
 input{

@@ -36,7 +36,7 @@ p{
   width:200px;
   height:25px;
   font-size: 15pt;
-  text-align: center;
+  text-align: left;
   border-radius: 0.4rem;
 }
 
@@ -51,6 +51,22 @@ p{
 }
 
 .userMatch_lookup:active{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.userMatch_lookup_test{
+  width:200px;
+  height:40px;
+  font-size: 15pt;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0.5rem;
+  border-color: #000000;
+}
+
+.userMatch_lookup_test:active{
   color: #000000;
   background-color: #ffffff;
   border-color: #000000;

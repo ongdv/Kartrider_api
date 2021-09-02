@@ -24,6 +24,8 @@ app.engine('html', require('ejs').renderFile);
 app.use('/', express.static(__dirname + '/views'));
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/js', express.static(__dirname + '/js'));
+app.use('/metadata', express.static(__dirname + '/metadata'));
+app.use('/configs', express.static(__dirname + '/configs'));
 
 // 중첩된 객체표현 허용유무
 app.use(express.urlencoded({extended:true}));

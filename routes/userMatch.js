@@ -31,12 +31,6 @@ const config = {
  * 4. offset
  * 5. limit
  * 6. match_types
- * 
- * 매치 타입에는 다음과 같은 정보가 담긴다.
- * speedTeamCombine
- * speedIndiCombine
- * itemTeamCombine
- * itemIndiCombine
  */
 router.get('/nickname', async (req, res, next)=>{
   const {nickname} = req.query;
@@ -51,12 +45,16 @@ router.get('/nickname', async (req, res, next)=>{
   const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
   if(riderInfo.get("statusCode") == 200){
     riderInfo.delete("level");
+
+    // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
 
-    // 라이더 정보를 다음 미들웨어로 전송한다.
+    // 다음 미들웨어로 전송한다.
     next();
   }
   else{
+
+    // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
     res.json(obj);
   }
@@ -66,7 +64,7 @@ router.get('/nickname', async (req, res, next)=>{
 /**
  * 받은 라이더 정보를 토대로 매치 정보를 조회한다.
  */
-router.get('/nickname', (req, res, next)=>{
+router.get('/nickname', async (req, res, next)=>{
   const {start_date, end_date} = req.query;
 
   // 입력하지 않았을 경우를 고려하여 let으로 선언
@@ -84,8 +82,9 @@ router.get('/nickname', (req, res, next)=>{
   const encodedUrl = encodeURI(url);
 
   // URL 요청을 하여 정보를 받아옴.
-  userMatchService.getUserMatches(encodedUrl, config);
-  res.json(obj);
+  const userMatchInfo = await userMatchService.getUserMatches(encodedUrl, config);
+  const matchObj = userMatchService.parseMetadata(userMatchInfo);
+  res.json(matchObj);
 });
 
 module.exports = router;
