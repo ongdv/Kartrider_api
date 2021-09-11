@@ -21,16 +21,10 @@ const config = {
     Authorization: kartSdk.key,
   },
 }
+
 /**
  * 먼저 라이더명을 이용하여 Id를 받아온다.
  * 매치 정보에는 다음과 같은 정보가 필요하다.
- * https://api.nexon.co.kr/kart/v1.0/users/{access_id}/matches?start_date={start_date}&end_date={end_date} &offset={offset}&limit={limit}&match_types={match_types}
- * 1. access_id
- * 2. start_date
- * 3. end_date
- * 4. offset
- * 5. limit
- * 6. match_types
  */
 router.get('/nickname', async (req, res, next)=>{
   const {nickname} = req.query;
@@ -65,15 +59,15 @@ router.get('/nickname', async (req, res, next)=>{
  * 받은 라이더 정보를 토대로 매치 정보를 조회한다.
  */
 router.get('/nickname', async (req, res, next)=>{
-  const {start_date, end_date} = req.query;
+  const {start_date, end_date} = req.params;
 
   // 입력하지 않았을 경우를 고려하여 let으로 선언
-  let {offset, limit, match_types} = req.query;
+  let {offset, limit, match_types} = req.params;
   match_types="";
   if(offset == undefined)
-    offset = 0;
+    offset = 2;
   if(limit == undefined)
-    limit = 10;
+    limit = 35;
 
   // 요청 URL
   const url = `https://api.nexon.co.kr/kart/v1.0/users/${obj.accessId}/matches?start_date=${start_date}&end_date=${end_date} &offset=${offset}&limit=${limit}&match_types=${match_types}`
@@ -83,7 +77,8 @@ router.get('/nickname', async (req, res, next)=>{
 
   // URL 요청을 하여 정보를 받아옴.
   const userMatchInfo = await userMatchService.getUserMatches(encodedUrl, config);
-  const matchObj = userMatchService.parseMetadata(userMatchInfo);
+  
+  const matchObj = userMatchService.parseMetadataAll(userMatchInfo);
   res.json(matchObj);
 });
 

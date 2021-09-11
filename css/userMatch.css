@@ -2,13 +2,8 @@ div{
   margin: 15px;
 }
 
-p{
-  width:200px;
-  margin: 3px;
-  font-size: 15pt;
-}
 
-.userMatch_nickname{
+.userMatch_text{
   width:200px;
   height:25px;
   font-size:15pt;
@@ -16,26 +11,10 @@ p{
   border-radius: 0.4rem;
 }
 
-.userMatch_start_date{
+.userMatch_date{
   width:202px;
   height:25px;
   font-size:15pt;
-  text-align: left;
-  border-radius: 0.4rem;
-}
-
-.userMatch_end_date{
-  width:202px;
-  height:25px;
-  font-size:15pt;
-  text-align: left;
-  border-radius: 0.4rem;
-}
-
-.userMatch_limit{
-  width:200px;
-  height:25px;
-  font-size: 15pt;
   text-align: left;
   border-radius: 0.4rem;
 }
@@ -71,3 +50,93 @@ p{
   background-color: #ffffff;
   border-color: #000000;
 }
+
+
+.matchResult{
+  width:1024px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.userNickname{
+  width:1000px;
+  height:100px;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.nickname{
+  font-size:25pt;
+  margin: 25px;
+}
+
+
+.speedIndi{
+  width:1000px;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid blue;
+}
+
+.speedIndiDetail{
+  width:900px;
+  height:100px;
+  display:inline-block;
+  background-color: #f1f1f1;
+  border: 1px solid #000000;
+}
+
+.detailInfo{
+  display:flex;
+  justify-content: space-around;
+  background-color: #b4b4b4;
+  border: 1px solid red;
+}
+
+.detailEle{
+  width:200px;
+  height:50px;
+  background-color: #ffffff;
+  line-height: 50px;
+  border: 1px solid blue;
+  font-size: 10pt;
+}
+
+.detailRank{
+  width:200px;
+  height:50px;
+  background-color: #ffffff;
+  line-height: 50px;
+  border: 1px solid blue;
+  font-size: 13pt;
+}
+
+.detailTrack{
+  width:200px;
+  height:50px;
+  background-color: #ffffff;
+  line-height: 50px;
+  border: 1px solid blue;
+  font-size: 10pt;
+}
+
+/*
+
+._speedIndiDetailInfo {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+      }
+      ._speedIndiDetailEle {
+        border: 1px solid blue;
+        margin: 1rem;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+*/

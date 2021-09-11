@@ -1,4 +1,9 @@
 const fs = require('fs');
+const trackFile = fs.readFileSync('./metadata/track.json', 'utf8');
+const kartFile = fs.readFileSync('./metadata/kart.json', 'utf8');
+const flyingPetFile = fs.readFileSync('./metadata/flyingPet.json', 'utf8');
+const gameTypeFile = fs.readFileSync('./metadata/gameType.json', 'utf8');
+const characterFile = fs.readFileSync('./metadata/character.json', 'utf8');
 module.exports = {
   /**
    * 트랙 정보를 받아온다.
@@ -7,13 +12,13 @@ module.exports = {
    * @returns {string}
    */
   getTrackData: (targetTrackId) => {
-    const trackFile = fs.readFileSync('./metadata/track.json', 'utf8');
     const trackData = JSON.parse(trackFile);
     for (let i = 0; i < trackData.length; i++) {
-      if (targetTrackId == trackData[i].id)
+      if (targetTrackId == trackData[i].id){
         return trackData[i].name;
+      }
     }
-    return null;
+    //return null;
   },
 
   /**
@@ -23,7 +28,7 @@ module.exports = {
    * @returns {string}
    */
   getKartData: (targetKartId) => {
-    const kartFile = fs.readFileSync('./metadata/kart.json', 'utf8');
+    
     const kartData = JSON.parse(kartFile);
     for (let i = 0; i < kartData.length; i++) {
       if (targetKartId == kartData[i].id)
@@ -39,7 +44,7 @@ module.exports = {
    * @returns {string}
    */
   getFlyingPetData: (targetFlyingPetId) => {
-    const flyingPetFile = fs.readFileSync('./metadata/flyingPet.json', 'utf8');
+    
     const flyingPetData = JSON.parse(flyingPetFile);
     for (let i = 0; i < flyingPetData.length; i++) {
       if (targetFlyingPetId == flyingPetData[i].id)
@@ -55,7 +60,7 @@ module.exports = {
    * @returns {string}
    */
   getGameTypeData: (targetGameTypeId) => {
-    const gameTypeFile = fs.readFileSync('./metadata/gameType.json', 'utf8');
+    
     const gameTypeData = JSON.parse(gameTypeFile);
     for (let i = 0; i < gameTypeData.length; i++) {
       if (targetGameTypeId == gameTypeData[i].id)
@@ -71,11 +76,12 @@ module.exports = {
    * @returns {string}
    */
   getCharacterData: (targetCharacterId) => {
-    const characterFile = fs.readFileSync('./metadata/character.json', 'utf8');
+    
     const characterData = JSON.parse(characterFile);
     for (let i = 0; i < characterData.length; i++) {
-      if (targetCharacterId == characterData[i].id)
+      if (targetCharacterId == characterData[i].id){
         return characterData[i].name;
+      }
     }
     return null;
   },
@@ -88,4 +94,13 @@ module.exports = {
   clone: (target) => {
     return JSON.parse(JSON.stringify(target));
   },
+
+  /**
+   * 다음 결과값은 모두 False로 취급한다. (undefined, null)
+   * @param {*} param 
+   * @returns 
+   */
+  isFalse : (param) =>{
+    return param == undefined || param == null;
+  }
 };
