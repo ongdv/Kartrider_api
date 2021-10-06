@@ -1,21 +1,21 @@
 const axios = require('axios');
 module.exports = {
  /**
-  * 라이더 정보를 받아온다.
-  * 라이더 정보는 이름과 레벨, 접근ID를 받아온다.
+  * 유저 정보를 받아온다.
+  * 유저 정보는 닉네임과 레벨, 고유 식별자를 받아온다.
   * @param {string} url - 요청 URL
   * @param {object} options - API 사용 인증 설정 
   * @returns {Map<string, object>}
   */
   getUserInfo : async (url, options) => {
     const map = new Map();
-    // 라이더 명
+    // 유저 명
     const keyName = "name";
 
-    // 라이더 레벨
+    // 유저 레벨
     const keyLevel = "level";
 
-    // 라이더 식별자
+    // 유저 고유 식별자
     const keyAccessId = "accessId";
 
     // 상태 코드

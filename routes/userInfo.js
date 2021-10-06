@@ -7,7 +7,7 @@ const kartSdk = require('../configs/kartRiderSDK');
 const userInfoService = require('../services/userInfo');
 
 /**
- * 라이더 명을 이용한 유저정보 조회
+ * 닉네임을 이용한 유저 정보 조회
  * 단순하게 URL의 nickname만 던져서 확인을 해보도록 하자.
  * https://api.nexon.co.kr/kart/v1.0/users/nickname/{nickname}
  */
@@ -28,7 +28,6 @@ router.get('/nickname', async (req, res, next) => {
   // URL 요청을 하여 정보를 받아옴.
   const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
   const obj = Object.fromEntries(riderInfo);
-  console.log(obj);
   res.json(obj);
 });
 

@@ -1,31 +1,44 @@
-window.onload = () => {
-  // fetch('https://api.nexon.co.kr/kart/v1.0/users/nickname/R팍이', {
-  //   method: 'GET',
-  //   headers:{Authorization : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X2lkIjoiMTcxMTU0OTY4OSIsImF1dGhfaWQiOiIyIiwidG9rZW5fdHlwZSI6IkFjY2Vzc1Rva2VuIiwic2VydmljZV9pZCI6IjQzMDAxMTM5MyIsIlgtQXBwLVJhdGUtTGltaXQiOiI1MDA6MTAiLCJuYmYiOjE2MzAwNDA2NTgsImV4cCI6MTY0NTU5MjY1OCwiaWF0IjoxNjMwMDQwNjU4fQ.rthL_ZvdP5-Xodde019MXo3H_vJVDMQfzvh-2O7vOVE',}
-  // })
-  // .then((res) => {
-  //   return res.json();
-  // })
-  // .then((data) => {
-  //   console.log(data);
-  // }); 
-};
+/**
+ * 태그의 ID 값을 받아온다.
+ * @param {*} param 
+ * @returns 
+ */
+ function getID(param){
+  return document.getElementById(param);
+}
 
-function getFetch(url){
-  fetch(url, {
+/**
+ * 닉네임 입력 시 해당 유저의 닉네임과 레벨, 메시지를 표기한다
+ * 메시지를 통해 라이더 정보 유무를 확인할 수 있다.
+ */
+function getFetch(){
+  const nickname = getID('nickname_fetch');
+  fetch(`/userInfo/nickname?nickname=${nickname.value}`, {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      name: '박진호',
-      id: 'enqlqkr@gmail.com',
-    }),
   })
   .then((res) => {
     return res.json();
   })
   .then((data) => {
     console.log(data);
+    const searchResult = getID('searchResult');
+    let str = `
+      <div class="resultEle">닉네임 : ${data.name}</div>
+      <div class="resultEle">레벨 : ${data.level}</div>
+      <div class="resultEle">메시지 : ${data.message}</div>
+    `;
+    searchResult.innerHTML=str;
   });
+}
+
+/**
+ * 엔터 키를 누르면 조회 가능
+ */
+function inputEnter(){
+  if(window.event.keyCode == 13){
+    getFetch();
+  }
 }
 
 function postFetch(url){
@@ -33,7 +46,7 @@ function postFetch(url){
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      name: '박진호',
+      name: '',
       id: 'enqlqkr@gmail.com',
     }),
   })
@@ -43,9 +56,4 @@ function postFetch(url){
   .then((data) => {
     console.log(data);
   });
-}
-
-
-function testKartRiderAPI(){
-  getFetch('/userInfo/nickname');
 }

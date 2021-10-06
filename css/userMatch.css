@@ -1,127 +1,206 @@
-div{
-  margin: 15px;
+/* 메인 */
+.main{
+  width:1500px;
+  /* border: 1px solid #000000; */
+  background-color: #ffffff;
 }
 
+/* 로고 위치 설정 */
+.logo{
+  justify-content: flex-start;
+}
 
-.userMatch_text{
+/* 좌측에 나타나는 조회 리스트 */
+.leftLayout{
+  width:300px;
+  /* border: 1px solid #0000ff; */
+}
+
+/* 우측에 나타나는 해당 화면의 주 기능 */
+.rightLayout{
+  width:1200px;
+  /* border:1px solid #00a7a7; */
+  display: flex;
+}
+
+/* 대전 정보 검색 박스 */
+.matchSearch{
+  width:100%;
+  /* border:1px solid #0000ff; */
+  justify-content: center;
+}
+
+.horizontal{
+  display:inline-block;
+}
+
+.horizontal_in{
+  display:flex;
+}
+
+/* 닉네임 조회 폼 outer */
+.inputFormOuter{
+  width: 1150px;
+}
+
+/* 닉네임 조회 폼 inner */
+.inputFormInner{
+  margin: 10px;
+  display:flex;
+  justify-content: center;
+}
+
+/* 대전 조회 버튼 */
+.buttonSearch{
   width:200px;
-  height:25px;
-  font-size:15pt;
-  text-align: left;
-  border-radius: 0.4rem;
-}
-
-.userMatch_date{
-  width:202px;
-  height:25px;
-  font-size:15pt;
-  text-align: left;
-  border-radius: 0.4rem;
-}
-
-.userMatch_lookup{
-  width:100px;
   height:40px;
   font-size: 15pt;
+  margin-left: 5px;
   color: #ffffff;
   background-color: #000000;
   border-radius: 0.5rem;
   border-color: #000000;
 }
 
-.userMatch_lookup:active{
+/* 대전 조회 버튼 클릭 시 */
+.buttonSearch:active{
   color: #000000;
   background-color: #ffffff;
   border-color: #000000;
 }
 
-.userMatch_lookup_test{
-  width:200px;
-  height:40px;
-  font-size: 15pt;
-  color: #ffffff;
-  background-color: #000000;
-  border-radius: 0.5rem;
-  border-color: #000000;
+/* 닉네임 입력 칸 */
+.inputNickname{
+  width:500px;
+  height:34px;
+  font-size:15pt;
+  text-align: left;
+  border-radius: 0.4rem;
 }
 
-.userMatch_lookup_test:active{
-  color: #000000;
-  background-color: #ffffff;
-  border-color: #000000;
+/* 대전 결과 표시 박스 outer */
+.matchResultOuter{
+  width:1170px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
 }
 
+/* 대전 결과 표시 박스 inner */
+.matchResultInner{
+  width:1100px;
+  /* border: 1px solid red; */
+  display:flex;
+  justify-content: center;
+}
 
-.matchResult{
-  width:1024px;
-  background-color: #f1f1f1;
-  text-align: center;
-  border: 1px solid red;
+.userNicknameBox{
+  width:1000px;
+  height:100px;
+  display:flex;
+  justify-content: center;
 }
 
 .userNickname{
-  width:1000px;
-  height:100px;
-  display: inline-block;
-  background-color: #ffffff;
-  border: 1px solid blue;
-  text-align: center;
+  width:900px;
+  background-color: #98bfff;
 }
 
+/* 닉네임 표시 */
 .nickname{
   font-size:25pt;
   margin: 25px;
+  text-align: center;
 }
 
-
+/* 모든 대전 정보가 표시 */
 .speedIndi{
   width:1000px;
   display: inline-block;
   background-color: #ffffff;
-  border: 1px solid blue;
+  text-align: center;
 }
 
-.speedIndiDetail{
+/* 각 대전 정보가 표시 */
+.detailInfoBox{
   width:900px;
-  height:100px;
+  height:115px;
   display:inline-block;
-  background-color: #f1f1f1;
-  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-top: 20px;
 }
 
+/* 등수, 트랙, 카트바디, 플라잉 펫이 표시*/
 .detailInfo{
   display:flex;
-  justify-content: space-around;
-  background-color: #b4b4b4;
-  border: 1px solid red;
+  justify-content: center;
+  background-color: #98bfff;
 }
 
-.detailEle{
-  width:200px;
-  height:50px;
-  background-color: #ffffff;
-  line-height: 50px;
-  border: 1px solid blue;
-  font-size: 10pt;
-}
 
+/* 순위 */
 .detailRank{
-  width:200px;
+  width:120px;
   height:50px;
-  background-color: #ffffff;
   line-height: 50px;
-  border: 1px solid blue;
-  font-size: 13pt;
+  font-size: 15pt;
+  margin: 10px;
 }
 
+/* 트랙 */
 .detailTrack{
-  width:200px;
+  width:250px;
   height:50px;
+  line-height: 50px;
+  font-size: 11pt;
+  margin: 10px;
+}
+
+/* 카트바디 */
+.detailKart{
+  width:170px;
+  height:50px;
+  line-height: 50px;
+  font-size: 11pt;
+  margin: 10px;
+}
+
+/* 기록 */
+.detailMatchTime{
+  width:100px;
+  height:50px;
+  line-height: 50px;
+  font-size: 11pt;
+  margin: 10px;
+}
+
+/* 카트바디 이미지 */
+.detailImg{
+  width:150px;
+  height:90px;
   background-color: #ffffff;
   line-height: 50px;
-  border: 1px solid blue;
+  border: 1px solid #ffffff;
   font-size: 10pt;
 }
+
+/* 버튼을 눌렀을 때 나타나는 다른 유저들의 정보(카트바디, 카트바디 사진, 닉네임만 표기)*/
+.detailUsers{
+  width:50px;
+  height:50px;
+  background-color: #98bfff;
+  line-height: 50px;
+  border: 1px solid #98bfff;
+  font-size: 13pt;
+  margin: 10px;
+}
+
+.nexonMention{
+  font-size: 15pt;
+  text-align: center;
+  /* border: 1px solid #0000ff; */
+}
+
 
 /*
 

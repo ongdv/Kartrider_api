@@ -24,6 +24,7 @@ app.engine('html', require('ejs').renderFile);
 app.use('/', express.static(__dirname + '/views'));
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/js', express.static(__dirname + '/js'));
+app.use('/images', express.static(__dirname + '/images'));
 app.use('/metadata', express.static(__dirname + '/metadata'));
 app.use('/configs', express.static(__dirname + '/configs'));
 
@@ -45,11 +46,15 @@ app.use(morgan('dev'));
  */
 const indexRouter = require('./routes/index');
 
-// 유저 정보를 이용한 라이더명 조회
+// 유저 정보를 이용한 유저 정보 간단 조회
 const userInfoRouter = require('./routes/userInfo');
 
-// 유저 정보를 이용한 라이더 매치 조회
+// 유저 정보를 이용한 유저 대전 정보 조회
 const userMatchRouter = require('./routes/userMatch');
+
+// 매치 식별자를 이용한 매치 상세 정보 조회
+const userMatchDetailRouter = require('./routes/userMatchDetail');
+
 
 /**
  * 라우터 연결
@@ -57,6 +62,7 @@ const userMatchRouter = require('./routes/userMatch');
 app.use('/', indexRouter);
 app.use('/userInfo', userInfoRouter);
 app.use('/userMatch', userMatchRouter);
+app.use('/userMatchDetail', userMatchDetailRouter);
 
 /**
  * 서버 실행

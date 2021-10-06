@@ -7,7 +7,6 @@ const characterFile = fs.readFileSync('./metadata/character.json', 'utf8');
 module.exports = {
   /**
    * 트랙 정보를 받아온다.
-   * 빌리지 고가의 질주, 사막 빙글빙글 공사장...
    * @param {string} targetTrackId 
    * @returns {string}
    */
@@ -23,7 +22,6 @@ module.exports = {
 
   /**
    * 카트바디 메타데이터를 받아온다.
-   * 파라곤X, 파이어마라톤V1, 세이버Z7-R...
    * @param {string} targetKartId 
    * @returns {string}
    */
@@ -39,7 +37,6 @@ module.exports = {
 
   /**
    * 플라잉펫 메타데이터를 받아온다.
-   * 플라잉 라이트론, 플라잉 수리검??, ...
    * @param {string} targetFlyingPetId 
    * @returns {string}
    */
@@ -55,7 +52,6 @@ module.exports = {
 
   /**
    * 게임 유형 메타데이터를 받아온다.
-   * 스피드팀전, 스피드개인전, 보스전...
    * @param {string} targetGameTypeId 
    * @returns {string}
    */
@@ -70,8 +66,7 @@ module.exports = {
   },
 
   /**
-   * 게임 유형 메타데이터를 받아온다.
-   * 스피드팀전, 스피드개인전, 보스전...
+   * 게임 캐릭터 정보를 받아온다.
    * @param {string} targetCharacterId 
    * @returns {string}
    */
@@ -102,5 +97,54 @@ module.exports = {
    */
   isFalse : (param) =>{
     return param == undefined || param == null;
+  },
+
+  /**
+   * 사람이 읽을 수 있는 시간값으로 변환한다.
+   * @param {string} timeData 
+   */
+  convertTime : (timeData) => {
+    let result = ''; 
+    let sec = '';
+    let milliSec = ''; 
+    let minute = '';
+  
+    // 리타이어일 경우 0으로 표기됨
+    if(timeData == 0)
+      return "리타이어";
+    
+    // 내가 작성했던 방법
+    // switch(timeData.length){
+    //   // s.SSS (10초 미만)
+    //   case 4:
+    //     sec = parseInt(timeData.slice(0, 1));
+    //     milliSec = timeData.slice(1, 4);
+    //     break;
+    //   // ss.SSS (10초 이상 100초 미만)
+    //   case 5:
+    //     sec = parseInt(timeData.slice(0, 2));
+    //     milliSec = timeData.slice(2, 5);
+    //     break;
+    //   // sss.SSS (100초 이상 1000초 미만)
+    //   case 6:
+    //     sec = parseInt(timeData.slice(0, 3));
+    //     milliSec = timeData.slice(3, 6);
+    //     break;
+    // }
+  
+    // 개선 사항
+    sec = parseInt(timeData.slice(0, timeData.length - 3));
+    milliSec = timeData.slice(timeData.length - 3, timeData.length);
+  
+    // 나눗셈 후 정수값만 받을 수 있게 처리
+    minute = parseInt(sec / 60);
+    sec = sec % 60;
+  
+    // x분 01초, x분 02초, 이런 형태로 표기되게끔 처리
+    if(sec < 10)
+      sec = `0${sec}`;
+    
+    result = `${minute}'${sec}'${milliSec}`;
+    return result;
   }
 };

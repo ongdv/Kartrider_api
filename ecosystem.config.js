@@ -13,7 +13,7 @@ module.exports = {
     script : "./app.js",
 
     // 서버 내 파일의 변경사항이 적용되면 서버 재실행
-    watch : ["views", "css", "routes", "services"],
+    watch : ["views", "css", "routes", "services", "js"],
 	
     // 서버가 무반응일 때 강제로 재로드 하는 시간
 	  listen_timeout : 5000,

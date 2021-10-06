@@ -10,61 +10,64 @@
 </head>
 
 <body>
-  <h2>라이더 명을 이용한 매치 정보 조회</h2>
-  <form method="GET" action="/userMatch/nickname">
+  <div class="main">
     <div>
-      <p>닉네임 입력</p>
-      <input type="text" class="userMatch_text" name="nickname">
+      <img src="/images/logo.png" class="logo">
     </div>
-    <div>
-      <p>시작 날짜</p>
-      <input type="date" class="userMatch_date" name="start_date">
-    </div>
-    <div>
-      <p>종료 날짜</p>
-      <input type="date" class="userMatch_date" name="end_date">
-    </div>
-    <div>
-      <p>조회 수</p>
-      <input type="text" class="userMatch_text" name="limit">
-    </div>
-    <div>
-      <input type="submit" class="userMatch_lookup" value="조회">
-    </div>
-  </form>
 
-  <div>
-    <input readonly type="text" id="testNickname" class="userMatch_text" name="nickname" value="R팍이">
-  </div>
-  <div>
-    <input readonly type="date" id="testStartDate" class="userMatch_date" name="start_date" value="2021-09-05">
-  </div>
-  <div>
-    <input readonly type="date" id="testEndDate" class="userMatch_date" name="end_date" value="2021-09-07">
-  </div>
-  <div>
-    <input readonly type="text" id="testLimit" class="userMatch_text" name="limit" value="35">
-  </div>
-  <div>
-    <button onclick="onClickGetUserMatch()" class="userMatch_lookup_test">
-      테스트 데이터 삽입
-    </button>
-  </div>
+    <div class="horizontal_in">
+      <div class="leftLayout">
+        <%-include('upper.html') %>
+      </div>
 
-  <div id="matchResult" class="matchResult">
-    <div class="userNickname">
-      <p id="userNickname" class="nickname"></p>
-    </div>
-    <div id="speedIndi" class="speedIndi">
-      <div class="speedIndiDetail">
-        <div class="detailInfo">
-          <div class="detailEle">#1/8</div>
-          <div class="detailEle">세이버Z7-R</div>
-          <div class="detailEle">팩토리 두 개의 공장</div>
-          <div class="detailEle">1:59:26</div>
+      <div class="rightLayout">
+        <div>
+          <div class="matchSearch">
+            
+            <!-- 디버그 용도로 사용. 평소에는 hidden을 통해 숨겨놓음. -->
+            <div hidden>
+              <div>
+                <form method="GET" action="/userMatch/nickname">
+                  <div>
+                    <input type="text" class="userMatch_text" name="nickname">
+                  </div>
+                  <div>
+                    <input type="submit" class="simpleButton" value="JSON 형식으로 조회">
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="inputFormOuter">
+              <div class="inputFormInner">
+                <input type="text" id="testNickname" class="inputNickname" name="nickname" placeholder="카트라이더 닉네임 입력"
+                  onkeyup="inputEnter()">
+                <button onclick="onClickGetUserMatch()" class="buttonSearch">조회하기</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="matchResultOuter">
+            <div class="matchResultInner">
+              <div hidden id="matchResult">
+                <div class="userNicknameBox">
+                  <div class="userNickname">
+                    <p id="userNickname" class="nickname"></p>
+                  </div>
+                </div>
+    
+                <div id="speedIndi" class="speedIndi"></div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
+    </div>
+    <div class="nexonMention">
+      Data based on NEXON DEVELOPERS
     </div>
   </div>
 </body>

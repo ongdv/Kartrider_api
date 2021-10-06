@@ -42,7 +42,7 @@ router.get('/nickname', async (req, res, next)=>{
 
     // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
-
+    console.log(obj);
     // 다음 미들웨어로 전송한다.
     next();
   }
@@ -50,6 +50,7 @@ router.get('/nickname', async (req, res, next)=>{
 
     // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
+    console.log(obj);
     res.json(obj);
   }
 });
@@ -64,13 +65,13 @@ router.get('/nickname', async (req, res, next)=>{
   // 입력하지 않았을 경우를 고려하여 let으로 선언
   let {offset, limit, match_types} = req.params;
   match_types="";
-  if(offset == undefined)
-    offset = 2;
+  // if(offset == undefined)
+  //   offset = 2;
   if(limit == undefined)
-    limit = 35;
+    limit = 500;
 
   // 요청 URL
-  const url = `https://api.nexon.co.kr/kart/v1.0/users/${obj.accessId}/matches?start_date=${start_date}&end_date=${end_date} &offset=${offset}&limit=${limit}&match_types=${match_types}`
+  const url = `https://api.nexon.co.kr/kart/v1.0/users/${obj.accessId}/matches?limit=${limit}`
   
   // 한글 인식을 하기 위한 인코딩처리
   const encodedUrl = encodeURI(url);
@@ -78,7 +79,8 @@ router.get('/nickname', async (req, res, next)=>{
   // URL 요청을 하여 정보를 받아옴.
   const userMatchInfo = await userMatchService.getUserMatches(encodedUrl, config);
   
-  const matchObj = userMatchService.parseMetadataAll(userMatchInfo);
+  let matchObj = userMatchService.parseMetadataAll(userMatchInfo);
+  matchObj.statusCode = obj.statusCode;
   res.json(matchObj);
 });
 

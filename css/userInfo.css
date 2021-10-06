@@ -1,33 +1,93 @@
-div{
-  margin: 15px;
+/* 메인 */
+.main{
+  width:1500px;
+  /* border: 1px solid #000000; */
+  background-color: #ffffff;
 }
 
-p{
-  width:200px;
-  margin: 3px;
+/* 로고 위치 설정 */
+.logo{
+  justify-content: flex-start;
+}
+
+/* 가로 배치 */
+.horizontal_in{
+  display:flex;
+  justify-content: center;
+}
+
+/* 좌측에 나타나는 조회 리스트 */
+.leftLayout{
+  width:300px;
+  /* border: 1px solid #0000ff; */
+}
+
+
+/* 우측에 나타나는 해당 화면의 주 기능 */
+.rightLayout{
+  width:1200px;
+  /* border: 1px solid #ff0000; */
+}
+
+/* 닉네임 검색 시 나타나는 정보 */
+.resultEle{
+  width:500px;
+  height: 40px;
+  margin: 15px;
   font-size: 15pt;
+  text-align: left;
+}
+
+.inputFormOuter{
+  width:1150px;
+  /* border: 1px solid #0000ff; */
+  display: flex;
+  justify-content: center;
+}
+
+.inputFormInner{
+  margin: 10px;
+  /* border: 1px solid #00ff00; */
+  display: flex;
+  justify-content: center;
+}
+
+.searchResultOuter{
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+}
+.searchResultInner{
+  width: 730px;
 }
 
 .userInfo_nickname{
-  width:200px;
-  height:35px;
+  width:500px;
+  height:34px;
   font-size:15pt;
   text-align: left;
   border-radius: 0.4rem;
+  justify-content: center;
 }
 
-.userInfo_lookup{
-  width:100px;
+.buttonUserInfo{
+  width:200px;
   height:40px;
   font-size: 15pt;
   color: #ffffff;
   background-color: #000000;
   border-radius: 0.5rem;
   border-color: #000000;
+  margin-left: 5px;
 }
 
-.userInfo_lookup:active{
+.buttonUserInfo:active{
   color: #000000;
   background-color: #ffffff;
   border-color: #000000;
+}
+
+.nexonMention{
+  font-size: 15pt;
+  text-align: center;
 }
