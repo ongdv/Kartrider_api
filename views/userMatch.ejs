@@ -6,7 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="/css/userMatch.css">
+  <link rel="stylesheet" href="/css/color.css">
   <script src="/js/userMatch.js"></script>
+  <script src="/js/userMatchTeam.js"></script>
 </head>
 
 <body>
@@ -29,7 +31,7 @@
               <div>
                 <form method="GET" action="/userMatch/nickname">
                   <div>
-                    <input type="text" class="userMatch_text" name="nickname">
+                    <input type="text" class="userMatch_text" name="nickname" value="R팍이">
                   </div>
                   <div>
                     <input type="submit" class="simpleButton" value="JSON 형식으로 조회">
@@ -42,7 +44,7 @@
               <div class="inputFormInner">
                 <input type="text" id="testNickname" class="inputNickname" name="nickname" placeholder="카트라이더 닉네임 입력"
                   onkeyup="inputEnter()">
-                <button onclick="onClickGetUserMatch()" class="buttonSearch">조회하기</button>
+                <button onclick="onClickGetUserMatch()" class="buttonSearch black">조회하기</button>
               </div>
             </div>
           </div>
@@ -53,10 +55,17 @@
                 <div class="userNicknameBox">
                   <div class="userNickname">
                     <p id="userNickname" class="nickname"></p>
+                    <div class="matchType">
+                     <button id="speedTeam" class="buttonSearch color_98bfff" value="스피드 팀전" onclick="onClickSpeedTeam()">팀전</button>
+                     <button id="speedIndi" class="buttonSearch color_98bfff" value="스피드 개인전" onclick="onClickSpeedIndi()">개인전</button>
+                     <button id="speedClub" class="buttonSearch color_98bfff" value="클럽 스피드 팀전" onclick="onClickSpeedClub()">클럽전</button>
+                    </div>
                   </div>
                 </div>
     
-                <div id="speedIndi" class="speedIndi"></div>
+                <div id="matchInfo" class="matchInfo">
+                  
+                </div>
               </div>
             </div>
           </div>

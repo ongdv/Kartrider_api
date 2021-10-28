@@ -1,21 +1,13 @@
-.searchIndex{
-  margin-top: 15px;
+.color_98bfff{
+  background-color: #98bfff;
+  border-radius: 0.5rem;
+  border-color: #000000;
 }
 
-.searchItems{
-  text-align: center;
-}
-
-.searchItem{
-  height: 65px;
-  justify-content: center;
-}
-
-.simpleButton{
-  width:200px;
-  height:40px;
-  font-size: 15pt;
-
+.color_98bfff:active{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
 }
 
 .black{
@@ -24,7 +16,6 @@
   border-radius: 0.5rem;
   border-color: #000000;
 }
-
 .black:active{
   color: #000000;
   background-color: #ffffff;

@@ -26,27 +26,23 @@ const config = {
  * 먼저 라이더명을 이용하여 Id를 받아온다.
  * 매치 정보에는 다음과 같은 정보가 필요하다.
  */
-router.get('/nickname', async (req, res, next)=>{
-  const {nickname} = req.query;
-
-  // 요청 URL
+router.get('/nickname', async (req, res, next) => {
+  const { nickname } = req.query;
   const url = `https://api.nexon.co.kr/kart/v1.0/users/nickname/${nickname}`;
 
   // 한글 인식을 하기 위한 인코딩처리
   const encodedUrl = encodeURI(url);
-
-  // URL 요청을 하여 정보를 받아옴.
   const riderInfo = await userInfoService.getUserInfo(encodedUrl, config);
-  if(riderInfo.get("statusCode") == 200){
+  if (riderInfo.get("statusCode") == 200) {
     riderInfo.delete("level");
 
     // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
     console.log(obj);
-    // 다음 미들웨어로 전송한다.
+
     next();
   }
-  else{
+  else {
 
     // map -> object로 변환
     obj = Object.fromEntries(riderInfo);
@@ -59,29 +55,26 @@ router.get('/nickname', async (req, res, next)=>{
 /**
  * 받은 라이더 정보를 토대로 매치 정보를 조회한다.
  */
-router.get('/nickname', async (req, res, next)=>{
-  const {start_date, end_date} = req.params;
+router.get('/nickname', async (req, res, next) => {
 
-  // 입력하지 않았을 경우를 고려하여 let으로 선언
-  let {offset, limit, match_types} = req.params;
-  match_types="";
-  // if(offset == undefined)
-  //   offset = 2;
-  if(limit == undefined)
-    limit = 500;
+  const { matchType } = req.query;
+  console.log(matchType);
+  let url = `https://api.nexon.co.kr/kart/v1.0/users/${obj.accessId}/matches?limit=500`;
 
-  // 요청 URL
-  const url = `https://api.nexon.co.kr/kart/v1.0/users/${obj.accessId}/matches?limit=${limit}`
-  
+  url = userMatchService.addMatchType(url, matchType);
+  console.log(url);
   // 한글 인식을 하기 위한 인코딩처리
   const encodedUrl = encodeURI(url);
+  let matchInfoArray = await userMatchService.getUserMatches(encodedUrl, config);
 
-  // URL 요청을 하여 정보를 받아옴.
-  const userMatchInfo = await userMatchService.getUserMatches(encodedUrl, config);
-  
-  let matchObj = userMatchService.parseMetadataAll(userMatchInfo);
-  matchObj.statusCode = obj.statusCode;
-  res.json(matchObj);
+  matchInfoArray.statusCode = obj.statusCode;
+  matchInfoArray = userMatchService.parseGameTypeData(matchInfoArray);
+  matchInfoArray = userMatchService.parseMetadata(matchInfoArray);
+  matchInfoArray = userMatchService.updateNumToRetired(matchInfoArray);
+  matchInfoArray = userMatchService.updateNullToKart(matchInfoArray);
+  matchInfoArray = userMatchService.deleteDataAll(matchInfoArray);
+  console.log(matchInfoArray);
+  res.json(matchInfoArray);
 });
 
 module.exports = router;

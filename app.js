@@ -44,17 +44,19 @@ app.use(morgan('dev'));
 /**
  * 요청 및 응답 처리를 해주는 라우터 정의
  */
-const indexRouter = require('./routes/index');
+const indexRouter = require('./controllers/index');
 
-// 유저 정보를 이용한 유저 정보 간단 조회
-const userInfoRouter = require('./routes/userInfo');
+// 유저 정보 간단 조회
+const userInfoRouter = require('./controllers/userInfo');
 
-// 유저 정보를 이용한 유저 대전 정보 조회
-const userMatchRouter = require('./routes/userMatch');
+// 개인전 대전 정보 조회
+const userMatchRouter = require('./controllers/userMatch');
 
-// 매치 식별자를 이용한 매치 상세 정보 조회
-const userMatchDetailRouter = require('./routes/userMatchDetail');
+// 대전 상세 정보 조회
+const userMatchDetailRouter = require('./controllers/userMatchDetail');
 
+// 팀전 대전 정보 조회
+const userTeamMatchDetailRouter = require('./controllers/userTeamMatchDetail');
 
 /**
  * 라우터 연결
@@ -63,6 +65,7 @@ app.use('/', indexRouter);
 app.use('/userInfo', userInfoRouter);
 app.use('/userMatch', userMatchRouter);
 app.use('/userMatchDetail', userMatchDetailRouter);
+app.use('/userTeamMatchDetail', userTeamMatchDetailRouter);
 
 /**
  * 서버 실행

@@ -32,7 +32,7 @@ module.exports = {
       if (targetKartId == kartData[i].id)
         return kartData[i].name;
     }
-    return null;
+    return "알 수 없는 카트바디";
   },
 
   /**
@@ -96,7 +96,7 @@ module.exports = {
    * @returns 
    */
   isFalse : (param) =>{
-    return param == undefined || param == null;
+    return ((param == 'undefined') || (param == undefined) || (param == null) || (param == ""));
   },
 
   /**

@@ -9,9 +9,9 @@ module.exports = {
    */
   getPlayers : async (url, options) => {
     try{
-      const gettedMatchDetail = await axios.get(url, options);
-      const {players} = gettedMatchDetail.data;
-      return players;
+      const matchDetail = await axios.get(url, options);
+      const { data } = matchDetail;
+      return data;
     }catch(error){
       console.log("대전 정보가 존재하지 않습니다.");
       console.log(error);
@@ -39,25 +39,41 @@ module.exports = {
   },
 
   /**
-   * 사용하지 않는 메타데이터 삭제
-   * @param {object} players - 플레이어들의 정보
+   * 배열 합치기
+   * @param {object} teams 
+   * @returns {Array<object>}
    */
-  deleteMetadata : (players) => {
-    players.forEach((player)=>{
-      delete player.accountNo;
-      delete player.rankinggrade2;
-      delete player.character;
-      delete player.license;
-      delete player.pet;
-      delete player.flyingPet;
-      delete player.matchRetired;
-      delete player.partsWheel;
-      delete player.partsKit;
-      delete player.partsHandle;
-      delete player.partsEngine;
-      delete player.matchWin;
+  concatArray: (teams) => {
+    let result = new Array();
+    teams.forEach((team) => {
+      const { players } = team;
+      players.forEach((player) => {
+        result.push(player);
+      });
     });
-    return players;
+    return result;
+  },
+  
+  /**
+   * 사용하지 않는 메타데이터 삭제
+   * @param {object} teams - 플레이어들의 정보
+   * @returns {Array<object>}
+   */
+  deletePlayersInfo: (teams) => {
+    teams.forEach((team) => {
+      team.players.forEach((player) => {
+        delete player.partsEngine;
+        delete player.partsHandle;
+        delete player.partsWheel;
+        delete player.partsKit;
+        delete player.license;
+        delete player.pet;
+        delete player.flyingPet;
+        delete player.rankinggrade2;
+        delete player.character;
+      });
+    });
+    return teams;
   },
 
   /**

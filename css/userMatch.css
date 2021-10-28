@@ -56,9 +56,29 @@
   height:40px;
   font-size: 15pt;
   margin-left: 5px;
+}
+
+.color_98bfff{
+  background-color: #98bfff;
+  border-radius: 0.5rem;
+  border-color: #000000;
+}
+
+.color_98bfff:active{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.black{
   color: #ffffff;
   background-color: #000000;
   border-radius: 0.5rem;
+  border-color: #000000;
+}
+.black:active{
+  color: #000000;
+  background-color: #ffffff;
   border-color: #000000;
 }
 
@@ -96,7 +116,7 @@
 
 .userNicknameBox{
   width:1000px;
-  height:100px;
+  height:125px;
   display:flex;
   justify-content: center;
 }
@@ -108,13 +128,16 @@
 
 /* 닉네임 표시 */
 .nickname{
+  width: 850px;
   font-size:25pt;
-  margin: 25px;
+  margin-top:10px;
+  margin-left:25px;
   text-align: center;
+  border: 1px solid #000000;
 }
 
 /* 모든 대전 정보가 표시 */
-.speedIndi{
+.matchInfo{
   width:1000px;
   display: inline-block;
   background-color: #ffffff;
@@ -136,6 +159,14 @@
   justify-content: center;
   background-color: #98bfff;
 }
+
+/* 등수, 트랙, 카트바디, 플라잉 펫이 표시*/
+.detailInfoUsers{
+  display:block;
+  justify-content: center;
+  background-color: #98bfff;
+}
+
 
 
 /* 순위 */
@@ -185,7 +216,7 @@
 }
 
 /* 버튼을 눌렀을 때 나타나는 다른 유저들의 정보(카트바디, 카트바디 사진, 닉네임만 표기)*/
-.detailUsers{
+.detailUsersButton{
   width:50px;
   height:50px;
   background-color: #98bfff;
@@ -195,10 +226,62 @@
   margin: 10px;
 }
 
+.detailUsers{
+  height: 150px;
+  clear: both;
+}
+
+/* 순위 닉네임 카트바디 기록 */
+.detailProperty{
+  text-align: left;
+  display: inline-block;
+  /* border: 1px solid #00ff00; */
+}
+
+.detailItem{
+  display: inline-block;
+  /* border: 1px solid #00ff00; */
+}
+
 .nexonMention{
   font-size: 15pt;
   text-align: center;
   /* border: 1px solid #0000ff; */
+}
+
+.matchRank{
+  width: 100px;
+  height: 25px;
+  font-size: 9pt;
+  /* border: 1px solid #ff0000; */
+}
+
+.matchNick{
+  width: 100px;
+  height: 25px;
+  font-size: 9pt;
+  /* border: 1px solid #000000; */
+}
+
+.matchKart_{
+  width: 70px;
+  height: 53px;
+  font-size: 9pt;
+  /* border: 1px solid #ff0000; */
+}
+
+.matchKart{
+  width: 70px;
+  height: 50px;
+  font-size: 9pt;
+  /* border: 1px solid #ff0000; */
+}
+
+.matchTime{
+  width: 100px;
+  height: 25px;
+  font-size: 9pt;
+  /* border: 1px solid #000000; */
 }
 
 
