@@ -5,7 +5,7 @@ const router = express.Router();
  * userInfo.ejs 랜더링
  */
 router.get('/', (req, res)=>{
-  res.render('userInfo');
+  res.render('index', {pageInfo: 'userInfo.ejs'});
 });
 
 /**

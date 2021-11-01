@@ -2,3 +2,5 @@ node_modules/
 logs/
 metadata/
 configs/kartRiderSDK.js
+.env
+.env.*

@@ -9,7 +9,7 @@ const userInfoService = require('../services/userInfo');
 // 카트라이더 openAPI를 쓰기 위한 API KEY 인증 설정
 const config = {
   headers: {
-    Authorization : kartSdk.key
+    Authorization : process.env.KART_SDK_KEY
   },
 }
 
@@ -18,7 +18,8 @@ const config = {
  */
 router.get('/nickname', async (req, res, next) => {
   const {nickname} = req.query;
-  const url = `https://api.nexon.co.kr/kart/v1.0/users/nickname/${nickname}`;
+  // 컨트롤러에 기술 x
+  const url = `${process.env.KART_SDK_URL}/users/nickname/${nickname}`;
   
   // 한글 인식을 하기 위한 인코딩처리
   const encodedUrl = encodeURI(url);

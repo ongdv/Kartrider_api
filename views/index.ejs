@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RiderInfo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/css/userInfo.css">
+    <script src="/js/userInfo.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <img src="/images/logo.png" class="logo">
+        </div>
+
+        <div class="horizontal_in">
+            <div class="leftLayout">
+                <%-include('upper.html') %>
+            </div>
+
+            <div class="rightLayout">
+                <%- include(pageInfo);%>
+            </div>
+
+            <div class="nexonMention">
+                Data based on NEXON DEVELOPERS
+            </div>
+
+        </div>
+
+</body>
+
+</html>

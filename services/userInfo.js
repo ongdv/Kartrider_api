@@ -25,18 +25,20 @@ module.exports = {
     const keyMessage = "message";
     try{
       // 정보 요청
-      const response = await axios.get(url, options);
-      const resData = response.data;
+      const {data} = await axios.get(url, options);
+      // const resData = response.;
       // 객체리터럴을 읽지 못하는 문제로 인해 Map을 사용하여 정보를 반환
       map.set(keyName, resData.name);
       map.set(keyLevel, resData.level);
       map.set(keyAccessId, resData.accessId);
       map.set(keyStatusCode, 200);
       map.set(keyMessage, "라이더 정보가 존재합니다.");
+
+    return data;
     }catch(error){
       map.set(keyStatusCode, 404);
       map.set(keyMessage, "라이더 정보가 존재하지 않습니다.");
+      throw error;
     }
-    return map;
   },
 };
